@@ -1,3 +1,9 @@
+main{
+    background-color: #FFFFFF;
+}
+.hero{
+    margin-top: 60px;
+}
 .carousel{
     background: #FEEAE9 !important;
 }
@@ -11,6 +17,44 @@
     background-image: linear-gradient(to bottom, #FF579A 0%, #FF267B 100%);
     border: none;
     padding: 9px 25px;
-    color: #fff;
+    color: #fff !important;
     cursor: pointer;
+}
+.catagories_item h1{
+    color: #fff;
+}
+.catagories_item img{
+    width: 100px;
+}
+.cat1, .cat2, .cat3{
+    margin: 80px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient(to right, #ffb732 0%, #FFA500 100%);
+}
+.cat2{
+    background-image: linear-gradient(to right, #d18ecf 0%, #DA70D6 100%);
+}
+.cat3{
+    background-image: linear-gradient(to right, #7474ff 0%, #0000FF 100%);
+}
+.card-group{margin: 10px 0px 60px 0px;}
+.card{
+    margin: 20px;
+    padding: 20px;
+    border: none !important;
+    border-radius: 15px !important;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.subscribe{
+    text-align: center;
+    margin: 80px 0px;
+}
+.subscribe h6{color: #a1a1a1;}
+.subscribe input{
+    border: 2px solid lightgrey;
+    padding: 10px;
+    border-radius: 5px;
 }
